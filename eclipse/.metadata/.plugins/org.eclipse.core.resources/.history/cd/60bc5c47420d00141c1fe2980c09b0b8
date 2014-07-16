@@ -185,12 +185,12 @@ public class MyCode {
 				    'C', Blocks.cactus,
 				    'D', hardDirt,
 					});
-		 ItemStack randomName = new ItemStack(MyBow);
-		 randomName.addEnchantment(Enchantment.sharpness, 300);
+		 ItemStack sharpSteak = new ItemStack(MyBow);
+		 sharpSteak.addEnchantment(Enchantment.sharpness, 300);
 		 //sharpSteak.addEnchantment(Enchantment.sharpness, 3);
 		 
 		 //Make Pumpkin Pie - Really messed up pumpkin pie recipe 
-		 GameRegistry.addRecipe(randomName, new Object[] 
+		 GameRegistry.addRecipe(sharpSteak, new Object[] 
 					{
 				    " A", "AB",
 					'A', Blocks.gold_block,
